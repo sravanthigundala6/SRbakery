@@ -1,0 +1,76 @@
+*{
+	margin:0px;
+	padding:0px;
+	font-family:Century;
+}
+body{
+	background-image:url("https://img.freepik.com/free-photo/tasty-croissants-different-muffins_23-2147693777.jpg");
+	background-size:cover;
+	background-position:center;
+}
+ul{
+	float:right;
+	margin-top:30px;
+	min-height:400px;
+	margin-right:60px;
+	font-size:17px;
+}
+ul,li{
+	display:inline-block;
+}
+ul li a{
+	text-decoration:none;
+	color:black;
+	padding:5px 20px;
+	border: 1px solid transparent;
+	transition:0.5 ease;
+}
+a:hover{
+	background-color:white;
+}
+.logo,img{
+	float:left;
+}
+.main{
+	max-width:1200px;
+	margin:auto;
+}
+.title{
+	color:Tomato;
+	position:absolute;
+	top:40%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.btn{
+	border:1px solid black;
+	padding:5px 20px;
+	color:black;
+	transition:0.5 ease;
+	font-size:18px;
+	text-decoration:none;
+}
+.btn:hover{
+	background-color:white;
+	color:black;
+}
+.button{
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+}
+.img{
+float:left;
+margin:0 auto;
+width:400px;
+border:6px solid white;
+border-radius:10px;
+background-size:cover;
+}
+
+
+
+	
+
+	
